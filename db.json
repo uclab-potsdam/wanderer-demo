@@ -37,7 +37,282 @@
       "de": "default:about_de.md"
     }
   },
-  "nodes": {},
-  "edges": [],
-  "exported": 0
+  "nodes": {
+    "3f629a58-13ad-4329-9b08-151d36054cd2": {
+      "type": "graph",
+      "allocations": {
+        "611ca4c4-8fe3-4cc6-909f-8b546f5b12b0": {
+          "x": -240,
+          "y": -300
+        },
+        "61fc4e72-af53-4e49-8f8b-1d65a796202b": {
+          "x": 280,
+          "y": -300
+        }
+      },
+      "label": {
+        "en": "Wanderer Demo"
+      },
+      "index": true,
+      "image": "default:demo.png",
+      "media": {
+        "file": {
+          "universal": "default:demo.mp4"
+        }
+      }
+    },
+    "611ca4c4-8fe3-4cc6-909f-8b546f5b12b0": {
+      "type": "graph",
+      "allocations": {
+        "65e956c5-168e-43fb-8ac8-9ec8df028878": {
+          "x": -500,
+          "y": -360
+        },
+        "ff2dee68-e140-4a0d-b3b8-a90ee99d9c24": {
+          "x": -500,
+          "y": -140
+        },
+        "244175ba-8914-40e6-be46-ae94cb42ccdf": {
+          "x": -160,
+          "y": -140
+        },
+        "15a5a701-9774-4366-928b-5b6e635c02fc": {
+          "x": -160,
+          "y": -360
+        },
+        "944af0da-9b1e-4673-84fa-5e5f2af24214": {
+          "x": -720,
+          "y": -300
+        },
+        "cfd8b742-9105-4565-8fe0-1427b78e75d3": {
+          "x": 80,
+          "y": -280
+        }
+      },
+      "label": {
+        "en": "Park"
+      },
+      "image": "default:park.png",
+      "media": {
+        "file": {
+          "universal": "default:park.mp4"
+        }
+      }
+    },
+    "61fc4e72-af53-4e49-8f8b-1d65a796202b": {
+      "type": "graph",
+      "allocations": {
+        "b6be8c13-4fe2-46c5-8cb5-3621d263c21c": {
+          "x": -20,
+          "y": 60
+        },
+        "2a9c1139-3bf2-47f4-b428-aa820641e08d": {
+          "x": -360,
+          "y": -80
+        },
+        "adb7b5ae-8500-4193-be49-f62bdf74b055": {
+          "x": -360,
+          "y": 180
+        },
+        "65e956c5-168e-43fb-8ac8-9ec8df028878": {
+          "x": -620,
+          "y": -140
+        }
+      },
+      "label": {
+        "en": "Passage"
+      },
+      "image": "default:passage.png",
+      "media": {
+        "file": {
+          "universal": "default:passage.mp4"
+        }
+      },
+      "marker": [
+        {
+          "time": 12.3109081,
+          "states": {
+            "2a9c1139-3bf2-47f4-b428-aa820641e08d": "highlight",
+            "adb7b5ae-8500-4193-be49-f62bdf74b055": "highlight"
+          },
+          "bounds": {
+            "x1": -547.0000000000001,
+            "y1": -192.50000000000006,
+            "x2": -196.0000000000001,
+            "y2": 282.49999999999994
+          }
+        },
+        {
+          "time": 0,
+          "states": {
+            "65e956c5-168e-43fb-8ac8-9ec8df028878": "hide",
+            "2a9c1139-3bf2-47f4-b428-aa820641e08d": "hide",
+            "b6be8c13-4fe2-46c5-8cb5-3621d263c21c": "hide"
+          },
+          "bounds": {
+            "x1": -452.0000000000001,
+            "y1": 91.49999999999994,
+            "x2": -271.0000000000001,
+            "y2": 270.49999999999994
+          }
+        },
+        {
+          "time": 25.7033353,
+          "states": {
+            "adb7b5ae-8500-4193-be49-f62bdf74b055": "default",
+            "65e956c5-168e-43fb-8ac8-9ec8df028878": "highlight"
+          },
+          "bounds": {
+            "x1": -732.0000000000001,
+            "y1": -198.50000000000006,
+            "x2": -243.0000000000001,
+            "y2": -9.500000000000057
+          }
+        },
+        {
+          "time": 7.1334234,
+          "states": {
+            "b6be8c13-4fe2-46c5-8cb5-3621d263c21c": "default"
+          }
+        }
+      ]
+    },
+    "65e956c5-168e-43fb-8ac8-9ec8df028878": {
+      "type": "entity",
+      "label": {
+        "en": "Bird"
+      },
+      "class": "b8dfa15e-7b3a-4119-82af-052496ceff1c"
+    },
+    "b8dfa15e-7b3a-4119-82af-052496ceff1c": {
+      "type": "entity",
+      "label": {
+        "en": "Animal"
+      }
+    },
+    "ff2dee68-e140-4a0d-b3b8-a90ee99d9c24": {
+      "type": "entity",
+      "label": {
+        "en": "Tree"
+      }
+    },
+    "244175ba-8914-40e6-be46-ae94cb42ccdf": {
+      "type": "entity",
+      "label": {
+        "en": "Ground"
+      }
+    },
+    "15a5a701-9774-4366-928b-5b6e635c02fc": {
+      "type": "entity",
+      "label": {
+        "en": "Ice Cream Cone"
+      },
+      "class": "f2019beb-7323-42a7-9c06-bf7cc3212281"
+    },
+    "944af0da-9b1e-4673-84fa-5e5f2af24214": {
+      "type": "image",
+      "file": "default:bird.png",
+      "label": {
+        "universal": "bird.png"
+      }
+    },
+    "cfd8b742-9105-4565-8fe0-1427b78e75d3": {
+      "type": "image",
+      "file": "default:cone.png",
+      "label": {
+        "universal": "cone.png"
+      }
+    },
+    "f2019beb-7323-42a7-9c06-bf7cc3212281": {
+      "type": "entity",
+      "label": {
+        "en": "Food"
+      }
+    },
+    "b6be8c13-4fe2-46c5-8cb5-3621d263c21c": {
+      "type": "image",
+      "file": "default:roll.png",
+      "label": {
+        "universal": "roll.png"
+      }
+    },
+    "2a9c1139-3bf2-47f4-b428-aa820641e08d": {
+      "type": "entity",
+      "label": {
+        "en": "Roll"
+      }
+    },
+    "adb7b5ae-8500-4193-be49-f62bdf74b055": {
+      "type": "entity",
+      "label": {
+        "en": "Shoe"
+      }
+    }
+  },
+  "edges": [
+    {
+      "nodes": [
+        "611ca4c4-8fe3-4cc6-909f-8b546f5b12b0",
+        "61fc4e72-af53-4e49-8f8b-1d65a796202b"
+      ],
+      "arrow": "→",
+      "graph": "3f629a58-13ad-4329-9b08-151d36054cd2",
+      "id": "baf0afa2-a52f-484b-9a4c-1d5f71fca97e",
+      "label": {
+        "en": ""
+      }
+    },
+    {
+      "nodes": [
+        "65e956c5-168e-43fb-8ac8-9ec8df028878",
+        "ff2dee68-e140-4a0d-b3b8-a90ee99d9c24"
+      ],
+      "arrow": "→",
+      "graph": "611ca4c4-8fe3-4cc6-909f-8b546f5b12b0",
+      "id": "86ddcc09-6e9f-43e9-a43f-7627934a20d7",
+      "label": {
+        "en": "sits on"
+      }
+    },
+    {
+      "nodes": [
+        "244175ba-8914-40e6-be46-ae94cb42ccdf",
+        "ff2dee68-e140-4a0d-b3b8-a90ee99d9c24"
+      ],
+      "arrow": "→",
+      "graph": "611ca4c4-8fe3-4cc6-909f-8b546f5b12b0",
+      "id": "8b46672c-7a62-469b-afc9-acfb0d26febf"
+    },
+    {
+      "nodes": [
+        "15a5a701-9774-4366-928b-5b6e635c02fc",
+        "244175ba-8914-40e6-be46-ae94cb42ccdf"
+      ],
+      "arrow": "→",
+      "graph": "611ca4c4-8fe3-4cc6-909f-8b546f5b12b0",
+      "id": "890c25f1-6ff2-4eb9-9f5f-a33cc6341da2",
+      "label": {
+        "en": "dropped to"
+      }
+    },
+    {
+      "nodes": [
+        "2a9c1139-3bf2-47f4-b428-aa820641e08d",
+        "adb7b5ae-8500-4193-be49-f62bdf74b055"
+      ],
+      "arrow": "→",
+      "graph": "61fc4e72-af53-4e49-8f8b-1d65a796202b",
+      "id": "5fc25b1a-8f15-440f-8eb5-6af9e198d5a5"
+    },
+    {
+      "nodes": [
+        "65e956c5-168e-43fb-8ac8-9ec8df028878",
+        "2a9c1139-3bf2-47f4-b428-aa820641e08d"
+      ],
+      "arrow": "→",
+      "graph": "61fc4e72-af53-4e49-8f8b-1d65a796202b",
+      "id": "d1efb8fe-2564-4889-87fb-a4835ea96b5e"
+    }
+  ],
+  "exported": 1733929973261
 }
