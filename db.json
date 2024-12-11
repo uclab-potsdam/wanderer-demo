@@ -8,6 +8,11 @@
           "short": "en"
         },
         {
+          "key": "de",
+          "label": "Deutsch",
+          "short": "de"
+        },
+        {
           "key": "universal",
           "label": "universal",
           "selectable": false,
@@ -28,7 +33,8 @@
     "defaultShorthand": "default",
     "kiosk": false,
     "about": {
-      "en": "default:about.md"
+      "en": "default:about.md",
+      "de": "default:about_de.md"
     }
   },
   "nodes": {},
